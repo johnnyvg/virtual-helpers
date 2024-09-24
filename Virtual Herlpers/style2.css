@@ -1,0 +1,20 @@
+style2
+.about-us {
+  text-align: center;
+  padding: 50px;
+}
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 200px;
+  border-radius: 50%;
+}

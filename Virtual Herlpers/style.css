@@ -1,0 +1,71 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header img {
+  width: 500px; 
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-right: 300px;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: aqua;
+}
+.hero-image img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+  }
+.services {
+  margin-left: 550px;
+}
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: chocolate;
+}
+
+.service-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  background-color: chocolate;
+}
+.About {
+  margin-left: 400px;
+}
+.CS {
+  margin-left: 200px;
+}
+.contacts {
+  margin-left: 560px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
